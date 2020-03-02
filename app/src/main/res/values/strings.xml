@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RxJavaWithMVVM</string>
+    <string name="imdb">IMDB</string>
+    <string name="synopsis">Synopsis</string>
 </resources>

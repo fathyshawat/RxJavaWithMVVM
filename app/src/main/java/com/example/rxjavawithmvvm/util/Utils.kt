@@ -5,6 +5,7 @@ import androidx.databinding.BindingAdapter
 import com.squareup.picasso.Picasso
 
 class Utils {
+
     companion object {
         @JvmStatic
         @BindingAdapter("image_url")
@@ -13,6 +14,10 @@ class Utils {
                 Picasso.get().load(image_url).into(view)
             }
         }
+
+
+
     }
+
 
 }

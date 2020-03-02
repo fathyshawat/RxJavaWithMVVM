@@ -1,86 +1,87 @@
 package com.example.rxjavawithmvvm.model
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
-data class MoviesItem(
+class MoviesItem :Serializable {
 
 	@field:SerializedName("small_cover_image")
-	val smallCoverImage: String? = null,
+	val smallCoverImage: String? = null
 
 	@field:SerializedName("year")
-	val year: String? = null,
+	val year: String? = null
 
 	@field:SerializedName("description_full")
-	val descriptionFull: String? = null,
+	val descriptionFull: String? = null
 
 	@field:SerializedName("rating")
-	val rating: Double? = null,
+	val rating: Double? = null
 
 	@field:SerializedName("large_cover_image")
-	val largeCoverImage: String? = null,
+	val largeCoverImage: String? = null
 
 	@field:SerializedName("title_long")
-	val titleLong: String? = null,
+	val titleLong: String? = null
 
 	@field:SerializedName("language")
-	val language: String? = null,
+	val language: String? = null
 
 	@field:SerializedName("yt_trailer_code")
-	val ytTrailerCode: String? = null,
+	val ytTrailerCode: String? = null
 
 	@field:SerializedName("title")
-	val title: String? = null,
+	val title: String? = null
 
 	@field:SerializedName("mpa_rating")
-	val mpaRating: String? = null,
+	val mpaRating: String? = null
 
 	@field:SerializedName("genres")
-	val genres: List<String?>? = null,
+	val genres: List<String?>? = null
 
 	@field:SerializedName("title_english")
-	val titleEnglish: String? = null,
+	val titleEnglish: String? = null
 
 	@field:SerializedName("id")
-	val id: Int? = null,
+	val id: Int? = null
 
 	@field:SerializedName("state")
-	val state: String? = null,
+	val state: String? = null
 
 	@field:SerializedName("slug")
-	val slug: String? = null,
+	val slug: String? = null
 
 	@field:SerializedName("summary")
-	val summary: String? = null,
+	val summary: String? = null
 
 	@field:SerializedName("date_uploaded")
-	val dateUploaded: String? = null,
+	val dateUploaded: String? = null
 
 	@field:SerializedName("runtime")
-	val runtime: Int? = null,
+	val runtime: Int? = null
 
 	@field:SerializedName("synopsis")
-	val synopsis: String? = null,
+	val synopsis: String? = null
 
 	@field:SerializedName("url")
-	val url: String? = null,
+	val url: String? = null
 
 	@field:SerializedName("imdb_code")
-	val imdbCode: String? = null,
+	val imdbCode: String? = null
 
 	@field:SerializedName("background_image")
-	val backgroundImage: String? = null,
+	val backgroundImage: String? = null
 
 	@field:SerializedName("torrents")
-	val torrents: List<TorrentsItem?>? = null,
+	val torrents: List<TorrentsItem?>? = null
 
 	@field:SerializedName("date_uploaded_unix")
-	val dateUploadedUnix: Int? = null,
+	val dateUploadedUnix: Int? = null
 
 	@field:SerializedName("background_image_original")
-	val backgroundImageOriginal: String? = null,
+	val backgroundImageOriginal: String? = null
 
 	@field:SerializedName("medium_cover_image")
 	val mediumCoverImage: String? = null
 
 
-)
+}
